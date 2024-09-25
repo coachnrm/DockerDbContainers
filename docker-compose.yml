@@ -46,7 +46,7 @@ services:
     environment:
       DB_PATH: /data/sqlite/storedb.db
     volumes:
-      - ./db:/root/db  # Mount volume สำหรับ SQLite
+      - ./volumes/sqlite:/root/db  # Mount volume สำหรับ SQLite
     #command: tail -f /dev/null # Keep container running
     networks:
       - app_network
