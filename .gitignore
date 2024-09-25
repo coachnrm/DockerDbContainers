@@ -1,5 +1,1 @@
-./volumes/mongodb
-./volumes/mssql
-./volumes/mysql
-./volumes/postgres
-./volumes/sqlite
+volumes/*
